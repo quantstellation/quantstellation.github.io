@@ -11,18 +11,29 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 		
+		  <style>
+  			.email-input {
+    			margin: 3px;
+  			}
+			
+  			.label-input {
+    			display: inline-block;;
+    			width: 100px;
+  			}
+		  </style>
 		  <form>
-  			<div>
-    			<label>Email:</label>
+  			<div class="email-input">
+    			<label class="label-input">Email:</label>
     			<input type="email" autocomplete="username" id="email">
   			</div>
-  			<div>
-    			<label>Password:</label>
+  			<div class="email-input">
+    			<label class="label-input">Password:</label>
     			<input type="password" autocomplete="new-password">
   			</div>
   			<input type="submit" value="Login">
 		  </form>
 		  
+		  <!--
           <p class="blog-post-list">
             {% for post in site.posts %}
 
@@ -37,6 +48,7 @@
 
             {% endfor %}
           </p>
+          -->
         </div>
       </div>
     </div>
