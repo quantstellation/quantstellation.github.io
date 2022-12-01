@@ -51,26 +51,32 @@
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:url" content="{{ page_url }}"/>
+  <meta property="twitter:url" content="{{ page_url }}"/>
   <meta property="twitter:title" content="{{ page_title }}"/>
   <meta property="twitter:description" content="{{ page_description }}"/>
   <meta property="twitter:image" content="{{ page_image }}"/>
   {% if twitter_username %}
-    <meta property="twitter:creator" content="{{ twitter_username }}"/>
-    <meta property="twitter:site" content="{{ twitter_username }}"/>
+    <meta property="twitter:creator" content="{{ twitter_username }}"/>
+    <meta property="twitter:site" content="{{ twitter_username }}"/>
   {% endif %}
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}"/>
   <link rel="canonical" href="{{ page_url }}"/>
-  <link rel="shortcut icon" href="{{ "/favicon.ico" | absolute_url }}" type="image/x-icon"/>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- <link rel="shortcut icon" href="{{ "/favicon.ico" | absolute_url }}" type="image/x-icon"/>  -->
 
-  <!-- Google Analytics -->
+  <!-- Google Analytics
   <script>
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
     ga('create', "{{ site.google_analytics }}", "auto");
     ga('send', "pageview");
   </script>
   <script async src="https://www.google-analytics.com/analytics.js"></script>
+  -->
 
 
 </head>
