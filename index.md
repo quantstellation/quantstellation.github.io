@@ -6,9 +6,6 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  Welcome! We help to set up a trading infrastructure and develop trading strategies. If you have ideas and want to quickly test it out in equities/futures/options/crypto, do not hesitate to contact me: contact@quantstellation.tech.
 </p>
 
-<p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
-</p>
