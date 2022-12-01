@@ -10,7 +10,19 @@
         <div class="blog">
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
-
+		
+		  <form>
+  			<div>
+    			<label>Email:</label>
+    			<input type="email" autocomplete="username" id="email">
+  			</div>
+  			<div>
+    			<label>Password:</label>
+    			<input type="password" autocomplete="new-password">
+  			</div>
+  			<input type="submit" value="Login">
+		  </form>
+		  
           <p class="blog-post-list">
             {% for post in site.posts %}
 
